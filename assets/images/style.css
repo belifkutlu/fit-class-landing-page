@@ -1,0 +1,89 @@
+body {
+  font-family: "Metropolis";
+}
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button {
+  height: 50px;
+  width: auto;
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0px 13.434px 39.1824px rgba(21, 76, 238, 0.21);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  border: 1px solid transparent;
+}
+
+.button.blue {
+  background-color: #2c5ff6;
+  border-color: #2c5ff6;
+  color: white;
+}
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo {
+  width: 150px;
+  height: 40px;
+}
+
+.header .navbar {
+  display: flex;
+  align-items: center;
+}
+
+.header .navbar li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.header .navbar li a {
+  text-decoration: none;
+  color: #1f2041;
+}
+
+.header .navbar li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header .header-buttons {
+  display: flex;
+}
+
+.app-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 37px rgba(7, 21, 61, 0.15);
+}
+
+.app-circle img {
+  width: 21px;
+  height: 21px;
+}
+
+.header-buttons .app-icons .app-circle:first-child {
+  margin-right: 15px;
+}
+
+.app-icons {
+  margin-right: 55px;
+  display: flex;
+}
