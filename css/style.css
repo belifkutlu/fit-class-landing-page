@@ -4,7 +4,7 @@
 
 body {
   font-family: "Metropolis";
-  background-image: url(/assets/images/container-bg.svg);
+  background-image: url(./assets/images/container-bg.svg);
   background-position: center;
 }
 .container {
@@ -212,15 +212,15 @@ body {
 }
 
 .card-1 {
-  background-image: url(/assets/images/card-1.svg);
+  background-image: url(../assets/images/card-1.svg);
 }
 
 .card-2 {
-  background-image: url(/assets/images/card-2.svg);
+  background-image: url(../assets/images/card-2.svg);
 }
 
 .card-3 {
-  background-image: url(/assets/images/card-3.svg);
+  background-image: url(../assets/images/card-3.svg);
 }
 
 .card-tag img {
